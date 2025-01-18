@@ -1,0 +1,24 @@
+package basics;
+
+public class Car {
+
+    //attributes-variables
+    String brand;
+    String colour;
+    double speed;
+
+    //methods
+    public void accelerate(){
+        System.out.println("Acceleration is happening");
+    }
+    public void capacity(){
+        System.out.println("25 bhp");
+    }
+
+    public static void main(String[] args) {
+
+        Car car1=new Car();//obj1
+        
+        Car car2=new Car();//obj2
+    }
+}

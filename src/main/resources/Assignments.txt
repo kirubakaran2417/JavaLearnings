@@ -1,0 +1,18 @@
+1.create a java program to calculate total and average of 5 subjects with student name and roll no.
+program structure:
+1. create a class(Calculation)
+2. create a main method
+3. declare and initialize variables
+4. calculate total and average
+5. print total and average of 5 subjects with student name and roll no.
+
+
+2.create the above program using methods and objects
+program structure:
+1. create a class(Calculation)
+2. create a main method
+3. declare and initialize variables
+4.create a method to calculate total
+5. create a method to calculate average
+6.create a main method
+7.create object and call methods
