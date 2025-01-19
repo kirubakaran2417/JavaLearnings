@@ -168,3 +168,63 @@ public class Calculation {
     }
 }
 ```
+**Problem Statement: 19-01-2025(saturday)**
+
+**Objective:**
+
+Write a Java program to create a `BankAccount` class that allows users to initialize account details using constructors. This should include an option for default balance initialization. The program should also provide methods to display account details.
+
+**Step-by-Step Approach:**
+
+1. **Define the Class:**
+  - Create a class named `BankAccount` to represent the bank account details.
+
+2. **Define Instance Variables:**
+  - Declare private variables:
+    - `String accountHolderName` to store the name of the account holder.
+    - `int accountNumber` to store the account number.
+    - `double balance` to store the account balance.
+
+3. **Create Constructors:**
+  - Define two constructors:
+    - **Full Constructor:** Accepts all account details (`accountHolderName`, `accountNumber`, `balance`) and initializes them.
+    - **Default Balance Constructor:** Accepts `accountHolderName` and `accountNumber`, and initializes the `balance` to 0.0. Use `this()` to call the full constructor internally.
+
+4. **Add a Display Method:**
+  - Define a method `displayDetails()` to display:
+    - Account holder name
+    - Account number
+    - Account balance
+
+5. **Create the Main Class:**
+  - Define the `Main` class with the `main` method.
+  - Create a `BankAccount` object using the constructor that initializes the account with a default balance.
+  - Call the `displayDetails()` method to print the account information.
+
+**Pseudocode:**
+
+Class BankAccount:
+
+Private members:
+
+- String accountHolderName
+- int accountNumber
+- double balance
+
+Constructor(String name, int number, double initialBalance):
+- Set accountHolderName to name
+- Set accountNumber to number
+- Set balance to initialBalance
+
+Constructor(String name, int number):
+- Call Constructor(name, number, 0.0) using 'this' keyword
+
+Method displayDetails():
+- Print accountHolderName
+- Print accountNumber
+- Print balance
+
+Class Main:
+In main method:
+- Create a BankAccount object using the constructor with default balance (balance = 0.0)
+- Call the displayDetails() method of the created object
