@@ -16,3 +16,53 @@ program structure:
 5. create a method to calculate average
 6.create a main method
 7.create object and call methods
+
+
+3.Problem Statement for the Given Program
+  Objective: Write a Java program to create a BankAccount class that allows users to initialize account details using constructors, including an option for default balance initialization. Provide methods to display account details.
+
+  Step-by-Step Approach:
+  Define the Class:
+
+  Create a class named BankAccount to represent the bank account details.
+  Define Instance Variables:
+
+  Declare private variables:
+  String accountHolderName to store the name of the account holder.
+  int accountNumber to store the account number.
+  double balance to store the account balance.
+  Create Constructors:
+
+  Define two constructors:
+  Full Constructor: Accepts all account details (accountHolderName, accountNumber, balance) and initializes them.
+  Default Balance Constructor: Accepts accountHolderName and accountNumber, and initializes the balance to 0.0. Use this() to call the full constructor internally.
+  Add a Display Method:
+
+  Define a method displayDetails() to display:
+  Account holder name
+  Account number
+  Account balance
+  Create the Main Class:
+
+  Define the Main class with the main method.
+  Create a BankAccount Object:
+
+  Instantiate a BankAccount object using the constructor that initializes the account with a default balance.
+  Call the Display Method:
+
+  Call the displayDetails() method to print the account information.
+  Pseudocode:
+  Create class BankAccount.
+  Declare instance variables:
+  String accountHolderName
+  int accountNumber
+  double balance
+  Define constructors:
+  Constructor 1: Accepts accountHolderName, accountNumber, balance.
+  Constructor 2: Accepts accountHolderName and accountNumber, calls Constructor 1 with balance set to 0.0.
+  Add a method displayDetails():
+  Print accountHolderName, accountNumber, and balance.
+  Create class Main.
+  Inside main method:
+  Create a BankAccount object using the second constructor (default balance).
+  Call displayDetails() method on the object.

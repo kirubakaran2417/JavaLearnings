@@ -1,0 +1,5 @@
+Java programme for bank account system which covers variables methods objects and basic data types
+In this program I am going to create variables
+Methods to To deposit money, to withdraw money, to check balance
+
+
