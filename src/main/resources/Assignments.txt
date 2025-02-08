@@ -66,3 +66,119 @@ program structure:
   Inside main method:
   Create a BankAccount object using the second constructor (default balance).
   Call displayDetails() method on the object.
+
+  4.Java Assignment: Bank Operations (Using Loops, Static Methods, and else if)
+
+    Objective:
+    Create a simple bank account management system in Java using variables, operators, methods, constructors, if statements, loops, and static methods.
+
+    Requirements:
+
+    1. Create a BankAccount class with the following properties:
+
+    accountNumber (String)
+
+    accountHolderName (String)
+
+    balance (double)
+
+
+
+    2. Add the following constructors and methods to the BankAccount class:
+
+    Constructor:
+
+    A constructor to initialize the accountNumber, accountHolderName, and balance.
+
+
+    Static Methods:
+
+    deposit(BankAccount account, double amount): Static method to deposit money into the provided account.
+
+    withdraw(BankAccount account, double amount): Static method to withdraw money from the provided account. Ensure the balance doesn’t go below 0.
+
+    checkBalance(BankAccount account): Static method to return the current balance of the provided account.
+
+    transferMoney(BankAccount fromAccount, BankAccount toAccount, double amount): Static method to transfer money from one account to another.
+
+
+
+
+    3. In the BankAccount class, use an if statement to handle:
+
+    Ensure that when withdrawing money, the balance doesn’t go below zero.
+
+    If the withdrawal amount is greater than the available balance, print a message saying “Insufficient funds”.
+
+
+
+    4. Create a BankOperations class with the main method:
+
+    In the main method, create two bank accounts (e.g., account1 and account2).
+
+    Display a menu to the user with the following options:
+
+    Deposit
+
+    Withdraw
+
+    Transfer
+
+    Check Balance
+
+    Exit
+
+
+    Use a while loop to allow the user to choose multiple operations until they choose to exit.
+
+
+
+    5. Use else if to handle different operations in the main method:
+
+    If the user selects "Deposit", prompt them for an amount and deposit it into the selected account using the static method.
+
+    If the user selects "Withdraw", prompt them for an amount and withdraw it from the selected account using the static method.
+
+    If the user selects "Transfer", prompt for the amount and transfer the money from one account to another using the static method.
+
+    If the user selects "Check Balance", display the current balance of the selected account using the static method.
+
+    If the user selects "Exit", terminate the program.
+
+
+
+
+    Example Output:
+
+    Welcome to the Bank Operations System!
+    Choose an operation:
+    1. Deposit
+    2. Withdraw
+    3. Transfer
+    4. Check Balance
+    5. Exit
+
+    Enter your choice: 1
+    Enter deposit amount: 500
+    Deposit successful! New balance: 500.0
+
+    Choose an operation:
+    1. Deposit
+    2. Withdraw
+    3. Transfer
+    4. Check Balance
+    5. Exit
+
+    Enter your choice: 2
+    Enter withdrawal amount: 200
+    Withdrawal successful! New balance: 300.0
+
+    Choose an operation:
+    1. Deposit
+    2. Withdraw
+    3. Transfer
+    4. Check Balance
+    5. Exit
+
+    Enter your choice: 5
+    Exiting the system. Goodbye!
